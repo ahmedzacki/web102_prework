@@ -188,3 +188,43 @@ firstGameContainer.appendChild(mostFundedGame);
 const secondMostFundedGame = document.createElement("p");
 secondMostFundedGame.innerText = secondGame.name;
 secondGameContainer.appendChild(secondMostFundedGame);
+
+// Some Additional Features
+/************************************************************************************
+ * Here I am adding a search bar that users can use to find games quickly without having to lick the buttons
+ */
+
+// This function filters the games based on the input string and returns a list of filtered games
+function filteredGames(inputString) {
+  // Use the filter method on the GAMES_JSON array to filter games
+  const filteredGameList = GAMES_JSON.filter((game) => {
+    // Check if the lowercase version of the game name starts with the lowercase input string
+    return game.name.toLowerCase().startsWith(inputString);
+  });
+  // Return the list of filtered games
+  return filteredGameList;
+}
+
+// Create a new paragraph element to display a message when no matching games are found
+const displayNotFoundString = document.createElement("p");
+displayNotFoundString.innerText =
+  "Sorry, we don't have that game now. Please, check back later :)";
+
+// Get the input field with the id "search-input"
+const searchField = document.getElementById("search-input");
+
+// Add an event listener to the input field to respond to input changes
+searchField.addEventListener("input", (event) => {
+  // Get the lowercase version of the input value so we can find accurate matching
+  const inputValue = event.target.value.toLowerCase();
+
+  // Remove all child elements from the gamesContainer
+  deleteChildElements(gamesContainer);
+
+  // Check if there are filtered games based on the input
+  // If yes, display the filtered games using addGamesToPage
+  // If no, display the sorry message
+  return filteredGames(inputValue).length > 0
+    ? addGamesToPage(filteredGames(inputValue))
+    : gamesContainer.appendChild(displayNotFoundString);
+});

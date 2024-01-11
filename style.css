@@ -78,3 +78,25 @@ button {
   margin: 1%;
   border-radius: 7px;
 }
+#search-bar-container {
+  text-align: center;
+  margin: 25px auto;
+  font-family: "Cabin";
+}
+
+.search-label {
+  font-size: 21px;
+  margin-right: 10px;
+}
+
+#search-input::placeholder {
+  font-size: 16px;
+  color: rgb(138, 135, 135);
+}
+
+#search-input {
+  padding: 8px;
+  font-size: 20px; /* Adjust the font size of the input text */
+  border-radius: 7px;
+  border: none;
+}
