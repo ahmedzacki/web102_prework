@@ -27,7 +27,7 @@ Here's a walkthrough of implemented features:
 
 <!-- Replace this with whatever GIF tool you used! -->
 
-GIF created with ...
+The GIF is created with LICEcap
 
 <!-- Recommended tools:
 [Kap](https://getkap.co/) for macOS
@@ -36,7 +36,7 @@ GIF created with ...
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+Completing this project was mostly straightforward, but the only challenge would be organizing the code and ensuring readability. The task involved making sure that the code was well-structured, easy to read, and followed best practices. To tackle this, I spent time reviewing the code's structure, comments, and variable names, making improvements to enhance overall clarity. I considered refactoring and added comments where needed. Despite this particular challenge, I genuinely enjoyed every moment of working on the project. It was a rewarding experience overall, and I took pleasure in the process.
 
 ## License
 
