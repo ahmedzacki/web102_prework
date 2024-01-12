@@ -67,36 +67,89 @@ body {
   box-shadow: 0 0 30px lightblue;
 }
 
-#button-container {
+.header-container {
+  background-color: #333;
+  color: white;
+  padding: 20px;
   text-align: center;
+}
+
+.our-games-title {
+  margin-bottom: 10px;
+  font-size: 24px;
+}
+
+.our-games-sub-title {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.btns-main-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+  background-color: #f0f0f0;
+  margin-bottom: 25px;
+}
+
+#button-container {
+  display: flex;
+  gap: 15px;
 }
 
 button {
-  font-family: "Cabin";
+  padding: 15px;
+  font-size: 18px;
+  background-color: #4caf50;
+  color: white;
   border: none;
-  padding: 1%;
-  margin: 1%;
-  border-radius: 7px;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #758190;
 }
+
+button:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid rgb(50, 49, 49);
+}
+
 #search-bar-container {
-  text-align: center;
-  margin: 25px auto;
-  font-family: "Cabin";
+  display: flex;
+  align-items: center;
 }
 
 .search-label {
-  font-size: 21px;
   margin-right: 10px;
-}
-
-#search-input::placeholder {
-  font-size: 16px;
-  color: rgb(138, 135, 135);
+  font-size: 18px;
 }
 
 #search-input {
   padding: 8px;
-  font-size: 20px; /* Adjust the font size of the input text */
-  border-radius: 7px;
-  border: none;
+  font-size: 16px;
+  border: 1px solid rgb(50, 49, 49);
+  border-radius: 10px;
+}
+
+.company-info-container {
+  background-color: #f8f8f8;
+  padding: 20px;
+  text-align: center;
+}
+
+.company-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.company-description {
+  font-size: 19px;
+  line-height: 1.5;
+}
+#first-game {
+  background-color: rgb(154, 242, 205);
+}
+#second-game {
+  background-color: antiquewhite;
 }

@@ -1,23 +1,23 @@
-# WEB102 Prework - *Sea Monster Crowdfunding Website*
+# WEB102 Prework - _Sea Monster Crowdfunding Website_
 
 Submitted by: **Ahmed Handulle**
 
 This is a website for the company Sea Monster Crowdfunding that displays information about the games they have funded.
 
-Time spent: **4** hours spent in total
+Time spent: **5** hours spent in total
 
 ## Required Features
 
 The following **required** functionality is completed:
 
-* [x] The introduction section explains the background of the company and how many games remain unfunded.
-* [x] The Stats section includes information about the total contributions and dollars raised as well as the top two most funded games.
-* [x] The Our Games section initially displays all games funded by Sea Monster Crowdfunding
-* [x] The Our Games section has three buttons that allow the user to display only unfunded games, only funded games, or all games.
+- [x] The introduction section explains the background of the company and how many games remain unfunded.
+- [x] The Stats section includes information about the total contributions and dollars raised as well as the top two most funded games.
+- [x] The Our Games section initially displays all games funded by Sea Monster Crowdfunding
+- [x] The Our Games section has three buttons that allow the user to display only unfunded games, only funded games, or all games.
 
 The following **optional** features are implemented:
 
-* [ ] List anything else that you can get done to improve the app functionality!
+- [x] I have implemented a dynamic search bar feature that allows users to efficiently search for specific games within the Sea Monster Crowdfunding website. The search functionality instantly responds to users' input, filtering and displaying relevant game results. Therefore improves user experience, making it easier for visitors to find their desired games among the diverse offerings on the platform.
 
 ## Video Walkthrough
 
@@ -26,7 +26,9 @@ Here's a walkthrough of implemented features:
 <img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  
+
+GIF created with ...
+
 <!-- Recommended tools:
 [Kap](https://getkap.co/) for macOS
 [ScreenToGif](https://www.screentogif.com/) for Windows
@@ -38,7 +40,7 @@ Describe any challenges encountered while building the app.
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [Ahmed Handulle] [Ahmed Handulle]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
