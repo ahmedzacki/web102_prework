@@ -61,13 +61,35 @@
         <button id="all-btn">Show All Games</button>
       </div>
       <div id="search-bar-container">
-        <label class="search-label" for="search">Search:</label>
-        <input
-          type="text"
-          id="search-input"
-          name="search"
-          placeholder="Search Games here..."
-        />
+        <div class="search-container">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="12"
+            height="12"
+            focusable="false"
+            viewBox="0 0 12 12"
+            class="search-icon"
+          >
+            <circle
+              cx="4.5"
+              cy="4.5"
+              r="4"
+              fill="none"
+              stroke="currentColor"
+            ></circle>
+            <path
+              stroke="currentColor"
+              stroke-linecap="round"
+              d="M11 11L7.5 7.5"
+            ></path>
+          </svg>
+          <input
+            type="search"
+            placeholder="Search games here.."
+            aria-label="Search"
+            id="searchInput"
+          />
+        </div>
       </div>
     </div>
 

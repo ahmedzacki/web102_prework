@@ -210,8 +210,19 @@ const displayNotFoundString = document.createElement("p");
 displayNotFoundString.innerText =
   "Sorry, we don't have that game now. Please, check back later :)";
 
+// Not Found Message styles
+displayNotFoundString.style.fontFamily = "Arial, sans-serif";
+displayNotFoundString.style.fontSize = "16px";
+displayNotFoundString.style.color = "#555";
+displayNotFoundString.style.backgroundColor = "#f8f8f8";
+displayNotFoundString.style.border = "1px solid #ddd";
+displayNotFoundString.style.borderRadius = "8px";
+displayNotFoundString.style.padding = "15px";
+displayNotFoundString.style.margin = "20px 0";
+displayNotFoundString.style.textAlign = "center";
+
 // Get the input field with the id "search-input"
-const searchField = document.getElementById("search-input");
+const searchField = document.getElementById("searchInput");
 
 // Add an event listener to the input field to respond to input changes
 searchField.addEventListener("input", (event) => {
